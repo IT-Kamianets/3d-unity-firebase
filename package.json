@@ -1,0 +1,21 @@
+{
+  "name": "com.itkamianets.3d-unity-firebase",
+  "version": "0.1.0",
+  "displayName": "IT-Kamianets 3D Engine: Unity Firebase",
+  "description": "Firebase for the IT-Kamianets 3D Engine over the REST API (no Firebase SDK): anonymous sign-in, player profiles, saved progress, and Scene JSON storage in Firestore. Works on PC, servers and mobile alike.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "IT Kamianets"
+  },
+  "keywords": [
+    "3d-engine",
+    "it-kamianets"
+  ],
+  "dependencies": {
+    "com.itkamianets.3d-unity-core": "0.1.0",
+    "com.itkamianets.3d-unity-scene": "0.1.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  }
+}

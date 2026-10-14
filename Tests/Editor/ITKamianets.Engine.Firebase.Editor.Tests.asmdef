@@ -1,0 +1,25 @@
+{
+    "name": "ITKamianets.Engine.Firebase.Editor.Tests",
+    "rootNamespace": "ITKamianets.Engine.Firebase.Editor.Tests",
+    "references": [
+        "ITKamianets.Engine.Firebase",
+        "ITKamianets.Engine.Firebase.Editor",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

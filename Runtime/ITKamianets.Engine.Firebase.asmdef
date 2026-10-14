@@ -1,0 +1,19 @@
+{
+    "name": "ITKamianets.Engine.Firebase",
+    "rootNamespace": "ITKamianets.Engine.Firebase",
+    "references": [
+        "ITKamianets.Engine.Core",
+        "ITKamianets.Engine.Scene"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
