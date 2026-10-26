@@ -31,6 +31,8 @@ Version 0.1.
 * `FirebaseConfig.FromGoogleServicesJson(text)`: project id and API key from the Android config file
 * `EngineFirebase.Initialize(config)` (also registered in `EngineServices`)
 * `Auth`: `SignInAsync()` signs back in as this device's player or creates an anonymous account (the refresh token is kept in `EngineStorage`, so the same `Uid` comes back), tokens refresh themselves, `SignOut()`
+* Google sign-in on PC: `SignInWithGoogleAsync(clientId, clientSecret)` with a "Desktop app" OAuth client of the same Google Cloud project (Google provider must be on in Firebase)
+* Email sign-in (Email/Password provider): `SignUpWithEmailAsync`, `SignInWithEmailAsync`, `SendPasswordResetAsync`; `TrySignInAgainAsync()` restores the saved account without creating an anonymous one
 * `Firestore`: `GetAsync`, `SetAsync`, `MergeAsync`, `DeleteAsync`, `ListAsync` with plain JSON in and out (Firestore's typed values are converted here)
 * Profile: `LoadProfileAsync`, `SaveProfileAsync` (merge)
 * Progress: `SaveProgressAsync<T>(key, value)`, `LoadProgressAsync<T>(key)`
@@ -52,6 +54,8 @@ await firebase.SaveSceneAsync(SceneSaver.Capture(level));
 
 * Firebase setup
 * Sign-in
+* Email sign-in
+* Google sign-in (PC)
 * User profiles
 * Saved progress
 * Scene storage
